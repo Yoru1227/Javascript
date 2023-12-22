@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/61b57fd84c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form action="get" enctype="text/plain">
+        <fieldset id="border">
+            <legend class="legend1">Form Check</legend>
+            <div class="dashed">
+                <label for="">姓名 : </label>
+                <input type="text" id="name" name="name">
+                <label for="" id="nameHint"></label>
+                <p class="hint">(1.不可空白 2. 至少兩個字以上 3.必須全部為中文字)</p>
+            </div>
+            <div class="dashed">
+                <label for="">密碼 : </label>
+                <input type="password" id="password" name="password">
+                <label for="" id="pwdHint"></label>
+                <p class="hint">(1.不可空白 2. 至少六個字且必須包含英數字、特殊字元[!@#$%^&*])</p>
+            </div>
+            <div class="dashed">
+                <label for="">日期 : </label>
+                <input type="text" id="date" name="date">
+                <label for="" id="dateHint"></label>
+                <p class="hint">格式 : 西元年/月/日 (yyyy/mm/dd)</p>
+            </div>
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

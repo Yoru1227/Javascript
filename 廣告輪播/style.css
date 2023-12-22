@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid {
+    font-size: 32px;
+}
+
+.button {
+    width: 70px;
+    height: 50px;
+    margin: 20px 20px;
+    background-color: rgb(33, 33, 58);
+    color: gainsboro;
+    border-radius: 10px;
+}
+
+.indexBtn {
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
+    background-color: rgb(33, 33, 58);
+    color: gainsboro;
+    border-radius: 10px;
+}
+
+#imageShow {
+    width: 550px;
+    height: 350px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
